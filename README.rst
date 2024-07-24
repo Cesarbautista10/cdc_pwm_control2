@@ -37,8 +37,18 @@ This is a simple example of how to use the CH552 to control the PWM and frequenc
 ```
 ### Example
 
-pwm100;
-freq1000;
+change the pwm to 100
+```bash
+    pwm100;
+
+```
+change the frequency to 1000
+```bash
+    freq1000;
+```
+
+>[!NOTE] Send commands with the correct format, otherwise the CH552 will not understand the command.
+>[!WARNING] The CH552 will not accept values out of the range.
 
 ## 7. License
 
