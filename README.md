@@ -45,8 +45,11 @@ change the frequency to 1000
     freq1000;
 ```
 
->[!NOTE] Send commands with the correct format, otherwise the CH552 will not understand the command.
->[!WARNING] The CH552 will not accept values out of the range.
+> [!NOTE]
+> Send commands with the correct format, otherwise the CH552 will not understand the command.
+
+> [!WARNING] 
+> The CH552 will not accept values out of the range.
 
 ## 7. License
 
