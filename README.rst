@@ -1,5 +1,3 @@
-.. this file is a guide for config pwm and freq of device ch552  
-
 
 # Bridge CDC Interface to PWM and Freq. 
 
