@@ -9,7 +9,7 @@
 // Description:
 // ------------
 
-// This example demonstrates how to create a virtual COM port and a UART port. 
+// This example demonstrates how to create a virtual COM port using the CH552 microcontroller.
 // The virtual COM port is created using the USB CDC protocol.
 //
 // References:
