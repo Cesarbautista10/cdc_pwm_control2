@@ -1,3 +1,40 @@
+// ===================================================================================
+// Project:   USB-UART (CH552) Virtual COM Port to control PWM and frequency
+// Version:   v1.0
+// Year:      2024
+// Author:    Cesar Bautista
+// License:   http://creativecommons.org/licenses/by-sa/3.0/
+// ===================================================================================
+//
+// Description:
+// ------------
+
+// This example demonstrates how to create a virtual COM port and a UART port. 
+// The virtual COM port is created using the USB CDC protocol.
+//
+// References:
+// -----------
+// - CH552-DAPLink: https://github.com/wagiminator/CH552-DAPLink/tree/main
+// - Blinkinlabs: https://github.com/Blinkinlabs/ch554_sdcc
+// - Deqing Sun: https://github.com/DeqingSun/ch55xduino
+// - Ralph Doncaster: https://github.com/nerdralph/ch554_sdcc
+// - WCH Nanjing Qinheng Microelectronics: http://wch.cn
+// - ARMmbed DAPLink: https://github.com/ARMmbed/DAPLink
+// - picoDAP: https://github.com/wagiminator/CH552-picoDAP
+//
+// Compilation Instructions:
+// -------------------------
+// - Chip:  CH552
+// - Clock: 12 MHz internal
+// - Adjust the firmware parameters in src/config.h if necessary.
+// - Make sure SDCC toolchain and Python3 with PyUSB is installed.
+// - Press BOOT button on the board and keep it pressed while connecting it via USB
+//   with your PC.
+
+//
+
+
+
 #include "src/config.h"                   // user configurations
 #include "src/system.h"                   // system functions
 #include "src/gpio.h"                     // for GPIO
